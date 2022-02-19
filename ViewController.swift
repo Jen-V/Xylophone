@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         playSound(soundName: sender.currentTitle!)
         sender.alpha = 0.5
 
-        //NOTE;I COULD NOT FIGURE THIS OUT BUT DID COME ACROSS THIS CODE IN SEARCHING FOR MY ANSWER...CREDIT TO codegrepper.com
+        //NOTE;I COULD NOT FIGURE THIS OUT BUT DID COME ACROSS THIS CODE IN SEARCHING FOR MY ANSWER.
         //Code should execute after 0.2 second delay.
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
             //Bring's sender's opacity back up to fully opaque.
